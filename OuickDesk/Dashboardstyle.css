@@ -1,0 +1,69 @@
+.dashboard-container {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h2 {
+	margin-top: 0;
+}
+
+.ticket-container {
+	margin-bottom: 20px;
+}
+
+.ticket-container h3 {
+	margin-top: 0;
+}
+
+.ticket-container table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.ticket-container th, .ticket-container td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+.create-ticket-container {
+	margin-bottom: 20px;
+}
+
+.create-ticket-container h3 {
+	margin-top: 0;
+}
+
+.create-ticket-container form {
+	margin-top: 20px;
+}
+
+.create-ticket-container label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.create-ticket-container input[type="text"], .create-ticket-container textarea {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.create-ticket-container button[type="submit"] {
+	background-color: #ff69b4;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.create-ticket-container button[type="submit"]:hover {
+	background-color: #333;
+}
